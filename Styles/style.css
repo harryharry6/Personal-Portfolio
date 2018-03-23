@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  overflow: hidden;
+  overflow: none;
+  background-image: url("/Assets/black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+
+}
+
+.outer {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.circle {
+  background: black;
+  border-radius: 300px;
+  height: 300px;
+  width: 300px;
+
+}
