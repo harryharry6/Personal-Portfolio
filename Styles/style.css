@@ -2,23 +2,118 @@ body {
   width: 100%;
   overflow: hidden;
   overflow: none;
-  background-image: url("/Assets/black.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-clip: content-box;
-
 }
 
-.outer {
-  width: 100%;
-  margin-top: 100px;
+.cm {
+
+  height: 60px;
+  left: 60px;
 }
 
-.circle {
-  background: black;
-  border-radius: 300px;
-  height: 300px;
-  width: 300px;
 
+#Classroom b {
+  position: absolute; /* Position them relative to the browser window */
+  left: 150px; /* Position them outside of the screen */
+  padding: 0px; /* 15px padding */
+  width: 75px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  z-index: 1;
+}
+
+
+#Classes a {
+    position: absolute; /* Position them relative to the browser window */
+    left: 0px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 200px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    z-index: 2;
+}
+
+#Classes a:hover {
+    left: -80px; /* On mouse-over, make the elements appear as they should */
+}
+
+
+#Physics {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#Math {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+}
+
+#Geography {
+    top: 140px;
+    background-color: #f44336; /* Red */
+}
+
+#DT {
+    top: 200px;
+    background-color: #555 /* Light Black */
+}
+
+#Dutch {
+    top: 260px;
+    background-color: #555 /* Light Black */
+}
+
+#English {
+    top: 320px;
+    background-color: #555 /* Light Black */
+}
+
+#TOK {
+    top: 380px;
+    background-color: #555 /* Light Black */
+}
+
+#University {
+    top: 440px;
+    background-color: #555 /* Light Black */
+}
+
+/* Clasroom */
+
+
+#CPhysics {
+    top: 20px;
+}
+#CPhysics:hover {
+  z-index: 5;
+}
+#CMath {
+    top: 80px;
+}
+
+#CGeography {
+    top: 140px;
+}
+
+#CDT {
+    top: 200px;
+}
+
+#CDutch {
+    top: 260px;
+}
+
+#CEnglish {
+    top: 320px;
+}
+
+#CTOK {
+    top: 380px;
+}
+
+#CUniversity {
+    top: 440px;
 }

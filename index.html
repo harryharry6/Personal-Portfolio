@@ -4,12 +4,55 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio Home</title>
-	<link rel="stylesheet" href="/Styles/style.css">
+	<link rel="stylesheet" href="Styles/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+     $("#Physics").mouseover(function(){
+         $("#Physics").css("left", "-80px");
+     });
+});
+$(document).ready(function(){
+     $("#CPhysics").mouseover(function(){
+         $("#Physics").css("left", "-80px");
+     });
+});
+$(document).ready(function(){
+     $("#CPhysics").mouseout(function(){
+         $("#Physics").css("left", "0px");
+     });
+});
+$(document).ready(function(){
+     $("#CPhysics").OnClick(function(){
+         $("#Physics").css("left", "-80px");
+     });
+});
+</script>
 </head>
 
 <body>
-<div class="circle">
- <a href="">Hi</a>
+
+
+
+ <div id="Classroom" class="Classroom">
+   <b id="CPhysics" href="https://classroom.google.com/u/0/c/NzI3MTMxODQyNlpa"><img src="/Assets/icons/ClassroomLogo.png" class="cm" > </b>
+	 <b id="CMath" href="#"><img src="/Assets/icons/ClassroomLogo.png" class="cm"> </b>
+	 <b id="CGeography" href="#"><img src="/Assets/icons/ClassroomLogo.png" class="cm"> </b>
+	 <b id="CDT" href="#"><img src="/Assets/icons/ClassroomLogo.png" class="cm"> </b>
+	 <b id="CDutch" href="#"><img src="/Assets/icons/ClassroomLogo.png" class="cm"> </b>
+	 <b id="CEnglish" href="#"><img src="/Assets/icons/ClassroomLogo.png" class="cm"> </b>
+	 <b id="CTOK" href="#"><img src="/Assets/icons/ClassroomLogo.png" class="cm"> </b>
+	 <b id="CUniversity" href="#"><img src="/Assets/icons/ClassroomLogo.png" class="cm"> </b>
+ </div>
+ <div id="Classes" class="Classes">
+	<a href="#" id="Physics">Physics</a>
+	<a href="#" id="Math">Math</a>
+	<a href="#" id="Geography">Geography</a>
+	<a href="#" id="DT">Design Technology</a>
+	<a href="#" id="Dutch">Dutch</a>
+	<a href="#" id="English">English</a>
+	<a href="#" id="TOK">TOK</a>
+	<a href="#" id="University">University</a>
 </div>
 </body>
 </html>
